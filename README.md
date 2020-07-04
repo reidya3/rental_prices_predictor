@@ -5,7 +5,7 @@
 - Performed in-depth EDA.
 - Engineered features using google maps/places  API such as the distance to the city centre and the average rating of restaurants in an area to quantify an area's exclusivity.
 - Engineered additional features from the text of each property descriptions
-= Optimized Linear, Lasso, Random forest, and Gradient Boosted Regressors using gridsearhCV to reach the best model.
+- Optimized Linear, Lasso, Random forest, and Gradient Boosted Regressors using gridsearhCV to reach the best model.
 
 ## Table of contents
 1. [Background](#background)
