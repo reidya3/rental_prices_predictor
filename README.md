@@ -4,7 +4,7 @@
 - Scraped over 2,500 property descriptions from rent.ie using beautiful soup and selenium.
 - Performed in-depth EDA.
 - Engineered features using google maps/places  API such as the distance to the city centre and the average rating of restaurants in an area to quantify an area's exclusivity.
-- Engineered additional features from the text of each property descriptions
+- Engineered additional features from the text of each property description
 - Optimized Linear, Lasso, Random forest, and Gradient Boosted Regressors using gridsearhCV to reach the best model.
 
 ## Table of contents
