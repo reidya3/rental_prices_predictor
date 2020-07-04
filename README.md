@@ -2,7 +2,7 @@
 ## Project Overview
 - Created a tool that estimates rental prices in Dublin(MSE- €302.68) to help prospective renters negotiate their rental price when applying to rent a property.
 - Scraped over 2,500 property descriptions from rent.ie using beautiful soup and selenium.
-= Performed in-depth EDA.
+- Performed in-depth EDA.
 - Engineered features using google maps/places  API such as the distance to the city centre and the average rating of restaurants in an area to quantify an area's exclusivity.
 - Engineered additional features from the text of each property descriptions
 = Optimized Linear, Lasso, Random forest, and Gradient Boosted Regressors using gridsearhCV to reach the best model.
