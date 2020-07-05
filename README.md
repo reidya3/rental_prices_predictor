@@ -65,7 +65,6 @@ I discovered a number of cool insights. Detailed examination of these can be fou
 
 
 
-
  
 
 
