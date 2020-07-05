@@ -80,7 +80,7 @@ The Random Forest model far outperformed the other approaches on the training an
 *	**Multiple Linear Regression** : MAE = 353.42
 *	**Lasso Regression**: MAE = 349.80
 *	**Random Forest**: MAE = 302.68
-*	**Gradient Boosted Regression**: MAE = 302.68
+*	**Gradient Boosted Regression**: MAE = 325.48
 
 
 
