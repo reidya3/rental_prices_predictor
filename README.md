@@ -64,6 +64,7 @@ I discovered a number of cool insights. A detailed examination of these insights
 <img src="data/WordCloud.png" alt="drawing" width="400" />
 
 ## Model Building <a name="model1"></a>
+The notebook can be found [here](notebooks/Model_Building.ipynb)
 
 First, I transformed the categorical variables into dummy variables. I also split the data into train and test sets with a test size of 20%.   
 
