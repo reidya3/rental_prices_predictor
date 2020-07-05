@@ -39,7 +39,7 @@ The data collection notebook can be found [here](notebooks/Data_collection.ipynb
 ### 2. Engineering Features <a name="subparagraph2"></a>
 Does the location of a property matter that much when renting a house? Many people in Dublin would agree, as driving cars is impractical due to the huge volumes of traffic coming into the city, public transport is not very affordable and biking under windy rain just sucks! Here, I pick three locations O'Connel bridge, IFSC and 'Silicon Docks'. After this, I found the distance between the location of each property and the relevant point.
 
-How do we measure the effect of trendiness or popularity in a quantitative  way? Popular areas tend to have better amenities  such as resturant's. I choose google places API to get an average review rating of restaurants nearby(1.5km radius) and an average price level. Again, details of how I did this can be found in the notebook above.
+How do we measure the effect of trendiness or popularity in a quantitative  way? Popular areas tend to have better amenities  such as resturants. I choose google places API to get an average review rating of restaurants nearby(1.5km radius) and an average price level. Again, details of how I did this can be found in the notebook above.
 
 In addition, I engineered other features from the text of each property description such as the postcode. Details can be found in the [rent EDA notebook.](notebooks/rent_EDA.ipynb)
 
