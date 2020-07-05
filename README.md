@@ -22,3 +22,5 @@ I wanted to understand rental price behaviour in Dublin against various features
 ## Data Collection <a name="collect"></a>
 The data collection notebook can be found [here](notebooks/Data_collection.ipynb)
 
+### Web Scraping
+
