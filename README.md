@@ -12,7 +12,7 @@
 2. [Data Collection](#collect)
     1. [Web Scraping](#subparagraph1)
     2. [Engineering Features](#subparagraph2)
-3. [Another paragraph](#paragraph2)
+3. [EDA](#eda)
 
 
 
@@ -39,6 +39,28 @@ Does the location of a property matter that much when renting a house? Many peop
 How do we measure the effect of trendiness or popularity in a qauntitative way? Popular areas tend to have bettter amenties such as resturant's. I choose google places API to get an average review rating of resturants nearby(1.5km radius) and an average price level. Again, details of how I did this can be found in the notebook above.
 
 In addition, I engineered other features from the text of each property description such as the postcode. This can be found in the [rent EDA notebook.](notebooks/rent_EDA.ipynb)
+
+Data cleaning also took place. Details of which can be found in the two aforementioned notebooks.
+
+## EDA
+I discovered a number of cool insights. Detailed examination of these can be found [EDA notebook.](notebooks/rent_EDA.ipynb)
+
+### Examples:
+
+##### Rental Price Heatmap Of Dublin
+<img src="data/dublin_heat_map.png" alt="drawing" width="600"/>
+
+#### Correlation matrix
+
+
+#### Histograms Of Rental Prices listed per month or per week
+
+#### Wordcloud of property descriptions
+
+
+
+
+
 
 
 
