@@ -11,7 +11,7 @@
 1. [Background](#background)
 2. [Data Collection](#collect)
     1. [Web Scraping](#subparagraph1)
-    2. [Engineering features](#subparagraph1)
+    2. [Engineering Features](#subparagraph2)
 3. [Another paragraph](#paragraph2)
 
 
@@ -23,27 +23,26 @@ I wanted to understand rental price behaviour in Dublin against various features
 The data collection notebook can be found [here](notebooks/Data_collection.ipynb)
 
 ### 1. Web Scraping <a name="subparagraph1"></a>
- I created a scraper tool to scrape over 2,500 property descriptions from rent.ie using python and selenium. With each job, we got the following:
- Listed property price(€)	Address	Bedroom(s)	Bathroom(s)	Property desc	Week YN	Month YN	Furnished Status
+ I created a scraper tool to scrape over 2,500 property descriptions from rent.ie using python and selenium. With each property, we got the following:
 - Listed property price(€)
 - Address
-- Number (s)
-- Bathroom(s)
+- Number of bedrooms
+- Number of bathroom
 - Property description
+- if the rental price is listed per month
+- if the rental price is listed per week
+- if the property is furnished or not
 
-Salary Estimate
-Job Description
-Rating
-Company
-Location
-Company Headquarters
-Company Size
-Company Founded Date
-Type of Ownership
-Industry
-Sector
-Revenue
-Competitors
+### 2. Engineering Features <a name="subparagraph2"></a>
+Does the location of a property matter that much when renting a house? Many people in dublin would agree, as driving cars is impractical due to the huge volumes of traffic coming into the city, public transport is not very affordable and biking under windy rain just sucks! Here, I pick three locations O'connel bridge, IFSC and 'silicon docks'. After this, I find the distance between the loaction of the each property and the revelant point.
+
+How do we measure the effect of trendiness or popularity in a qauntitative way? Popular areas tend to have bettter amenties such as resturant's. I choose google places API to get an average review rating of resturants nearby(1.5km radius) and an average price level. Again, details of how I did this can be found in the notebook above.
+
+In addition, I engineered other features from the text of each property description such as the postcode. This can be found in the [rent EDA notebook.](notebooks/rent_EDA.ipynb)
+
+
+
+
  
 
 
