@@ -45,7 +45,7 @@ In addition, I engineered other features from the text of each property descript
 
 Data cleaning also took place. Details of which can be found in the two aforementioned notebooks.
 
-## EDA
+## EDA <a name="eda"></a>
 I discovered a number of cool insights. Detailed examination of these can be found in the  [EDA notebook.](notebooks/rent_EDA.ipynb)
 
 ### Examples:
@@ -62,7 +62,7 @@ I discovered a number of cool insights. Detailed examination of these can be fou
 #### Wordcloud Of Property Descriptions
 <img src="data/WordCloud.png" alt="drawing" width="400" />
 
-## Model Building 
+## Model Building <a name="model1"></a>
 
 First, I transformed the categorical variables into dummy variables. I also split the data into train and tests sets with a test size of 20%.   
 
@@ -75,8 +75,8 @@ I tried four different models:
 *	**Gradient Boosted Regression** –   GBDT are better learners than Random Forests.
 
 
-## Model performance
-The Random Forest model far outperformed the other approaches on the test and validation sets. 
+## Model Evaluation <a name="model2"></a>
+The Random Forest model far outperformed the other approaches on the training and test sets. 
 *	**Multiple Linear Regression** : MAE = 353.42
 *	**Lasso Regression**: MAE = 349.80
 *	**Random Forest**: MAE = 302.68
