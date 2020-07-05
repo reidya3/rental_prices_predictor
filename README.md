@@ -30,23 +30,23 @@ The data collection notebook can be found [here](notebooks/Data_collection.ipynb
 - Listed property price(€)
 - Address
 - Number of bedrooms
-- Number of bathroom
+- Number of bathrooms
 - Property description
 - if the rental price is listed per month
 - if the rental price is listed per week
 - if the property is furnished or not
 
 ### 2. Engineering Features <a name="subparagraph2"></a>
-Does the location of a property matter that much when renting a house? Many people in dublin would agree, as driving cars is impractical due to the huge volumes of traffic coming into the city, public transport is not very affordable and biking under windy rain just sucks! Here, I pick three locations O'connel bridge, IFSC and 'silicon docks'. After this, I find the distance between the loaction of the each property and the revelant point.
+Does the location of a property matter that much when renting a house? Many people in Dublin would agree, as driving cars is impractical due to the huge volumes of traffic coming into the city, public transport is not very affordable and biking under windy rain just sucks! Here, I pick three locations O'Connel bridge, IFSC and 'silicon docks'. After this, I found the distance between the location of each property and the revelant point.
 
-How do we measure the effect of trendiness or popularity in a qauntitative way? Popular areas tend to have bettter amenties such as resturant's. I choose google places API to get an average review rating of resturants nearby(1.5km radius) and an average price level. Again, details of how I did this can be found in the notebook above.
+How do we measure the effect of trendiness or popularity in a qauntitative way? Popular areas tend to have better amenities  such as resturant's. I choose google places API to get an average review rating of restaurants nearby(1.5km radius) and an average price level. Again, details of how I did this can be found in the notebook above.
 
 In addition, I engineered other features from the text of each property description such as the postcode. Details can be found in the [rent EDA notebook.](notebooks/rent_EDA.ipynb)
 
 Data cleaning also took place. Details of which can be found in the two aforementioned notebooks.
 
 ## EDA <a name="eda"></a>
-I discovered a number of cool insights. Detailed examination of these insights can be found in the  [EDA notebook.](notebooks/rent_EDA.ipynb)
+I discovered a number of cool insights. A detailed examination of these insights can be found in the  [EDA notebook.](notebooks/rent_EDA.ipynb)
 
 ### Examples:
 
@@ -64,7 +64,7 @@ I discovered a number of cool insights. Detailed examination of these insights c
 
 ## Model Building <a name="model1"></a>
 
-First, I transformed the categorical variables into dummy variables. I also split the data into train and tests sets with a test size of 20%.   
+First, I transformed the categorical variables into dummy variables. I also split the data into train and test sets with a test size of 20%.   
 
 I tried four different models and evaluated them using Mean Absolute Error. I chose MAE because it is relatively easy to interpret and outliers aren’t particularly bad in for this type of model.   
 
