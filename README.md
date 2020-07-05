@@ -15,6 +15,7 @@
 3. [EDA](#eda)
 4. [Model Building](#model1)
 5. [Model Evaluation](#model2)
+6. [Conclusion ](#con)
 
 
 
@@ -82,7 +83,10 @@ The Random Forest model far outperformed the other approaches on the training an
 *	**Random Forest**: MAE = 302.68
 *	**Gradient Boosted Regression**: MAE = 325.48
 
+## Conclusion <a name="con"></a>
+This project showed me that understanding the rental market in Dublin is definitely more complex than simply looking at location and the size of a property. Although, these two features are the most important, you can easily be paying more money for the same property just because you decided to live in a neighbourhood with good restaurants or some other unaccounted for feature such as the culture of a place.
 
+Hopefully, I have been able to shed a bit more light into the inner workings of this market and help a few people predict how much they should be paying for their new rental property. Thank you for reading!
 
 
 
