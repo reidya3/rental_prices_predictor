@@ -57,7 +57,7 @@ I discovered a number of cool insights. Detailed examination of these can be fou
 <img src="data/histogram_house_type.png" alt="drawing"/>
 
 #### Wordcloud of property descriptions
-<img src="data/WordCloud.png" alt="drawing" />
+<img src="data/WordCloud.png" alt="drawing" width="400" />
 
 
 
