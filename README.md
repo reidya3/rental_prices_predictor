@@ -51,13 +51,13 @@ I discovered a number of cool insights. Detailed examination of these can be fou
 <img src="data/dublin_heat_map.png" alt="drawing" width="600"/>
 
 #### Correlation matrix
-<img src="data/correlation.png" alt="drawing" width="600"/>
+<img src="data/correlation.png" alt="drawing" />
 
 #### Histograms Of Rental Prices listed per month or per week
-<img src="data/histogram_house_type.png" alt="drawing" width="600"/>
+<img src="data/histogram_house_type.png" alt="drawing"/>
 
 #### Wordcloud of property descriptions
-<img src="data/WordCloud.png" alt="drawing" width="600"/>
+<img src="data/WordCloud.png" alt="drawing" />
 
 
 
