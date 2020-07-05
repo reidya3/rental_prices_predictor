@@ -22,5 +22,28 @@ I wanted to understand rental price behaviour in Dublin against various features
 ## Data Collection <a name="collect"></a>
 The data collection notebook can be found [here](notebooks/Data_collection.ipynb)
 
-### Web Scraping
+### 1. Web Scraping <a name="subparagraph1"></a>
+ I created a scraper tool to scrape over 2,500 property descriptions from rent.ie using python and selenium. With each job, we got the following:
+ Listed property price(€)	Address	Bedroom(s)	Bathroom(s)	Property desc	Week YN	Month YN	Furnished Status
+- Listed property price(€)
+- Address
+- Number (s)
+- Bathroom(s)
+- Property description
+
+Salary Estimate
+Job Description
+Rating
+Company
+Location
+Company Headquarters
+Company Size
+Company Founded Date
+Type of Ownership
+Industry
+Sector
+Revenue
+Competitors
+ 
+
 
