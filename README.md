@@ -13,6 +13,9 @@
     1. [Web Scraping](#subparagraph1)
     2. [Engineering Features](#subparagraph2)
 3. [EDA](#eda)
+4. [Model Building](#model1)
+5. [Model Performance](#model2)
+
 
 
 
@@ -43,21 +46,41 @@ In addition, I engineered other features from the text of each property descript
 Data cleaning also took place. Details of which can be found in the two aforementioned notebooks.
 
 ## EDA
-I discovered a number of cool insights. Detailed examination of these can be found [EDA notebook.](notebooks/rent_EDA.ipynb)
+I discovered a number of cool insights. Detailed examination of these can be found in the  [EDA notebook.](notebooks/rent_EDA.ipynb)
 
 ### Examples:
 
 ##### Rental Price Heatmap Of Dublin
 <img src="data/dublin_heat_map.png" alt="drawing" width="600"/>
 
-#### Correlation matrix
+#### Correlation Matrix
 <img src="data/correlation.png" alt="drawing" />
 
-#### Histograms Of Rental Prices listed per month or per week
+#### Histograms Of Rental Prices Listed Per Month Or Per Week
 <img src="data/histogram_house_type.png" alt="drawing"/>
 
-#### Wordcloud of property descriptions
+#### Wordcloud Of Property Descriptions
 <img src="data/WordCloud.png" alt="drawing" width="400" />
+
+## Model Building 
+
+First, I transformed the categorical variables into dummy variables. I also split the data into train and tests sets with a test size of 20%.   
+
+I tried four different models and evaluated them using Mean Absolute Error. I chose MAE because it is relatively easy to interpret and outliers aren’t particularly bad in for this type of model.   
+
+I tried four different models:
+*	**Multiple Linear Regression** – Baseline for the model
+*	**Lasso Regression** – Because of the sparse data from the many categorical variables, I thought a normalized regression like lasso would be effective.
+*	**Random Forest** – Again, with the sparsity associated with the data, I thought that this would be a good fit. 
+*	**Gradient Boosted Regression** –   GBDT are better learners than Random Forests.
+
+
+## Model performance
+The Random Forest model far outperformed the other approaches on the test and validation sets. 
+*	**Multiple Linear Regression** : MAE = 353.42
+*	**Lasso Regression**: MAE = 349.80
+*	**Random Forest**: MAE = 302.68
+*	**Gradient Boosted Regression**: MAE = 302.68
 
 
 
